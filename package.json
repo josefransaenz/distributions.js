@@ -1,0 +1,28 @@
+{
+  "name": "distributions.js",
+  "version": "0.1.0",
+  "description": "A javascript library of probability distributions",
+  "main": "distributions.js",
+  "scripts": {
+    "test": "mocha ./test/distributions.test.js",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josefransaenz/distributions.js"
+  },
+  "keywords": [
+    "statistics",
+    "probability",
+    "distributions"
+  ],
+  "author": "Josefran Saenz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josefransaenz/distributions.js/issues"
+  },
+  "homepage": "https://github.com/josefransaenz/distributions.js",
+  "devDependencies": {
+    "babel-cli": "^6.3.17"
+  }
+}
