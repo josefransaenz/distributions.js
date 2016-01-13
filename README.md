@@ -1,22 +1,22 @@
-## Synopsis
+# Synopsis
 
 A javascript library of probability distributions 
 
-## Code Example
+# Code Example
 
 probability = distributions.tStudent (tStatistic, degreesOfFreedom);
 
-## Motivation
+# Motivation
 
 This project was created to allow creating statistical tools with javascript
 
-## Installation
+# Installation
 
 NPM: npm install distributions.js --save
 
-## API Reference
+# API Reference
 
-# binomial
+## binomial
 
 Binomial cumulative distribution (<https://en.wikipedia.org/wiki/F-distribution)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html>)
 
@@ -28,7 +28,7 @@ Binomial cumulative distribution (<https://en.wikipedia.org/wiki/F-distribution)
 
 Returns **number** bincdf cumulative probability
 
-# chiInverse
+## chiInverse
 
 chi squared distribution inverse function (<https://en.wikipedia.org/wiki/Chi-squared_distribution>)
 
@@ -39,7 +39,7 @@ chi squared distribution inverse function (<https://en.wikipedia.org/wiki/Chi-sq
 
 Returns **number** chi value
 
-# chiSquared
+## chiSquared
 
 chi squared  distribution (<https://en.wikipedia.org/wiki/Chi-squared_distribution)(http://www.math.ucla.edu/~tom/distributions/chisq.html>)
 
@@ -50,7 +50,7 @@ chi squared  distribution (<https://en.wikipedia.org/wiki/Chi-squared_distributi
 
 Returns **number** probability value
 
-# fInverse
+## fInverse
 
 F distribution inverse function (<https://en.wikipedia.org/wiki/Chi-squared_distribution>)
 
@@ -62,7 +62,7 @@ F distribution inverse function (<https://en.wikipedia.org/wiki/Chi-squared_dist
 
 Returns **number** F ratio
 
-# fSnedecor
+## fSnedecor
 
 Snedecor's F distribution (<https://en.wikipedia.org/wiki/F-distribution)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html>)
 
@@ -74,7 +74,7 @@ Snedecor's F distribution (<https://en.wikipedia.org/wiki/F-distribution)(http:/
 
 Returns **number** probability value
 
-# poisson
+## poisson
 
 Poisson cumulative distribution (<https://en.wikipedia.org/wiki/F-distribution)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html>)
 
@@ -85,9 +85,9 @@ Poisson cumulative distribution (<https://en.wikipedia.org/wiki/F-distribution)(
 
 Returns **number** Poiscdf cumulative probability
 
-# tInverse
+## tInverse
 
-Student't cumulative distribution fuction (<https://en.wikipedia.org/wiki/Student%27s_t-distribution)(http://www.math.ucla.edu/~tom/distributions/tDist.html>)
+Student't cumulative distribution function (<https://en.wikipedia.org/wiki/Student%27s_t-distribution)(http://www.math.ucla.edu/~tom/distributions/tDist.html>)
 
 **Parameters**
 
@@ -96,9 +96,9 @@ Student't cumulative distribution fuction (<https://en.wikipedia.org/wiki/Studen
 
 Returns **number** t value
 
-# tStudent
+## tStudent
 
-Student't cumulative distribution fuction (<https://en.wikipedia.org/wiki/Student%27s_t-distribution)(http://www.math.ucla.edu/~tom/distributions/tDist.html>)
+Student't cumulative distribution function (<https://en.wikipedia.org/wiki/Student%27s_t-distribution)(http://www.math.ucla.edu/~tom/distributions/tDist.html>)
 
 **Parameters**
 
@@ -107,14 +107,14 @@ Student't cumulative distribution fuction (<https://en.wikipedia.org/wiki/Studen
 
 Returns **number** B (X; A, B)
 
-## Tests
+# Tests
 
 npm run test
 
-## Contributors
+# Contributors
 
 Josefran Saenz (josefsaenz@gmail.com)
 
-## License
+# License
 
 MIT
