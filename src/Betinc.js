@@ -1,6 +1,7 @@
 'use strict';
 /**
  * This function calculate the incomplete Beta function (https://en.wikipedia.org/wiki/Beta_function) (http://www.math.ucla.edu/~tom/distributions/tDist.html).
+ * @private 
  * @param {number} X integration limit
  * @param {number} A parameter a
  * @param {number} B parameter b

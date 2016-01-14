@@ -4,6 +4,7 @@ var LogGamma = require('./LogGamma');
 
 /**
  * Lower incomplete fuction (https://en.wikipedia.org/wiki/Gamma_distribution)(http://www.math.ucla.edu/~tom/distributions/chisq.html)
+ * @private 
  * @param {number} X limit
  * @param {number} A variable
  * @returns {number} probability value

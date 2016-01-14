@@ -5,6 +5,7 @@ var Betinc = require('./Betinc');
 
 /**
  * Beta cumulative distribution fuction (https://en.wikipedia.org/wiki/Beta_function)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html)
+ * @private 
  * @param {number} Z parameter
  * @param {number} A parameter
  * @param {number} B parameter

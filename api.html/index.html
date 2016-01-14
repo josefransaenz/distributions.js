@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>distributions.js 0.2.0 | Documentation</title>
+  <meta name='viewport' content='width=device-width,initial-scale=1'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro:400,500,700' rel='stylesheet' type='text/css'>
+  <link href='assets/bass.css' type='text/css' rel='stylesheet' />
+  <link href='assets/style.css' type='text/css' rel='stylesheet' />
+  <link href='assets/github.css' type='text/css' rel='stylesheet' />
+</head>
+<body class='documentation'>
+  <div class='container'>
+    <div class='clearfix md-mxn2'>
+      <div class='fixed md-show fix-3 overflow-auto max-height-100'>
+        <div class='py1 px2'>
+          <h3 class='mb0 no-anchor'>distributions.js</h3>
+          <div class='mb1'><code>0.2.0</code></div>
+          <input
+            placeholder='Filter'
+            id='filter-input'
+            class='col12 block field'
+            type='text' />
+          <div id='toc'>
+              <a
+                href='#binomial'
+                class='block bold'>
+                binomial
+              </a>
+              <a
+                href='#chiInverse'
+                class='block bold'>
+                chiInverse
+              </a>
+              <a
+                href='#chiSquared'
+                class='block bold'>
+                chiSquared
+              </a>
+              <a
+                href='#distributions.JS'
+                class='block bold'>
+                distributions.JS
+              </a>
+              <a
+                href='#fInverse'
+                class='block bold'>
+                fInverse
+              </a>
+              <a
+                href='#fSnedecor'
+                class='block bold'>
+                fSnedecor
+              </a>
+              <a
+                href='#poisson'
+                class='block bold'>
+                poisson
+              </a>
+              <a
+                href='#tInverse'
+                class='block bold'>
+                tInverse
+              </a>
+              <a
+                href='#tStudent'
+                class='block bold'>
+                tStudent
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class='fix-margin-3'>
+        <div class='px2'>
+<div class='py1'><section class='py2 clearfix'>
+  <h2 id='binomial' class='mt0'>
+    binomial<span class='gray'>(successes, sampleSize, probability)</span>
+  </h2>
+  <p>Binomial cumulative distribution (<a href="https://en.wikipedia.org/wiki/F-distribution)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html">https://en.wikipedia.org/wiki/F-distribution)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html</a>)</p>
+
+    <h4>Parameters</h4>
+    <ul class='suppress-p-margin'>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>successes</strong>
+          :
+          <div class='force-inline'>
+            <p>number of successes or &quot;yes&quot; events</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>sampleSize</strong>
+          :
+          <div class='force-inline'>
+            <p>number of trials</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>probability</strong>
+          :
+          <div class='force-inline'>
+            <p>for obtaining a success at a single independend trial</p>
+
+          </div>
+        </li>
+    </ul>
+      <h4>Returns</h4>
+      <code><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code></code>
+      :
+      <div class='force-inline'>
+        <p>bincdf cumulative probability</p>
+
+      </div>
+</section>
+</div><div class='py1'><section class='py2 clearfix'>
+  <h2 id='chiInverse' class='mt0'>
+    chiInverse<span class='gray'>(pLevel, degreesOfFreedom)</span>
+  </h2>
+  <p>chi squared distribution inverse function (<a href="https://en.wikipedia.org/wiki/Chi-squared_distribution">https://en.wikipedia.org/wiki/Chi-squared_distribution</a>)</p>
+
+    <h4>Parameters</h4>
+    <ul class='suppress-p-margin'>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>pLevel</strong>
+          :
+          <div class='force-inline'>
+            <p>probability of a larger chi</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>degreesOfFreedom</strong>
+          :
+          <div class='force-inline'>
+            <p>Degrees of freedom</p>
+
+          </div>
+        </li>
+    </ul>
+      <h4>Returns</h4>
+      <code><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code></code>
+      :
+      <div class='force-inline'>
+        <p>chi value</p>
+
+      </div>
+</section>
+</div><div class='py1'><section class='py2 clearfix'>
+  <h2 id='chiSquared' class='mt0'>
+    chiSquared<span class='gray'>(chiStatistic, degreesOfFreedom)</span>
+  </h2>
+  <p>chi squared  distribution (<a href="https://en.wikipedia.org/wiki/Chi-squared_distribution">https://en.wikipedia.org/wiki/Chi-squared_distribution</a>)
+(<a href="http://www.math.ucla.edu/~tom/distributions/chisq.html">http://www.math.ucla.edu/~tom/distributions/chisq.html</a>)</p>
+
+    <h4>Parameters</h4>
+    <ul class='suppress-p-margin'>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>chiStatistic</strong>
+          :
+          <div class='force-inline'>
+            <p>parameter</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>degreesOfFreedom</strong>
+          :
+          <div class='force-inline'>
+            <p>parameter</p>
+
+          </div>
+        </li>
+    </ul>
+      <h4>Returns</h4>
+      <code><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code></code>
+      :
+      <div class='force-inline'>
+        <p>probability value for obtaining a lower chiStatistic</p>
+
+      </div>
+</section>
+</div><div class='py1'><section class='py2 clearfix'>
+  <h2 id='distributions.JS' class='mt0'>
+    distributions.JS<span class='gray'></span>
+  </h2>
+  <p>A library for common-use probability distribution functions</p>
+
+</section>
+</div><div class='py1'><section class='py2 clearfix'>
+  <h2 id='fInverse' class='mt0'>
+    fInverse<span class='gray'>(pLevel, degreesOfFreedom1, degreesOfFreedom2)</span>
+  </h2>
+  <p>F distribution inverse function (<a href="https://en.wikipedia.org/wiki/Chi-squared_distribution">https://en.wikipedia.org/wiki/Chi-squared_distribution</a>)</p>
+
+    <h4>Parameters</h4>
+    <ul class='suppress-p-margin'>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>pLevel</strong>
+          :
+          <div class='force-inline'>
+            <p>probability of a larger F</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>degreesOfFreedom1</strong>
+          :
+          <div class='force-inline'>
+            <p>Degree of freedom of numerator</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>degreesOfFreedom2</strong>
+          :
+          <div class='force-inline'>
+            <p>Degree of freedom of denumerator</p>
+
+          </div>
+        </li>
+    </ul>
+      <h4>Returns</h4>
+      <code><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code></code>
+      :
+      <div class='force-inline'>
+        <p>F ratio</p>
+
+      </div>
+</section>
+</div><div class='py1'><section class='py2 clearfix'>
+  <h2 id='fSnedecor' class='mt0'>
+    fSnedecor<span class='gray'>(fStatistic, degreesOfFreedom1, degreesOfFreedom2)</span>
+  </h2>
+  <p>Snedecor&apos;s F distribution (<a href="https://en.wikipedia.org/wiki/F-distribution)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html">https://en.wikipedia.org/wiki/F-distribution)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html</a>)</p>
+
+    <h4>Parameters</h4>
+    <ul class='suppress-p-margin'>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>fStatistic</strong>
+          :
+          <div class='force-inline'>
+            <p>F-ratio</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>degreesOfFreedom1</strong>
+          :
+          <div class='force-inline'>
+            <p>Degree of freedom of numerator</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>degreesOfFreedom2</strong>
+          :
+          <div class='force-inline'>
+            <p>Degree of freedom of denumerator</p>
+
+          </div>
+        </li>
+    </ul>
+      <h4>Returns</h4>
+      <code><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code></code>
+      :
+      <div class='force-inline'>
+        <p>probability value</p>
+
+      </div>
+</section>
+</div><div class='py1'><section class='py2 clearfix'>
+  <h2 id='poisson' class='mt0'>
+    poisson<span class='gray'>(successes, lambda)</span>
+  </h2>
+  <p>Poisson cumulative distribution (<a href="https://en.wikipedia.org/wiki/F-distribution)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html">https://en.wikipedia.org/wiki/F-distribution)(http://www.math.ucla.edu/~tom/distributions/Fcdf.html</a>)</p>
+
+    <h4>Parameters</h4>
+    <ul class='suppress-p-margin'>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>successes</strong>
+          :
+          <div class='force-inline'>
+            <p>number of successes or &quot;yes&quot; events</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>lambda</strong>
+          :
+          <div class='force-inline'>
+            <p>number of trials * probability for obtaining a success at a single independend trial</p>
+
+          </div>
+        </li>
+    </ul>
+      <h4>Returns</h4>
+      <code><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code></code>
+      :
+      <div class='force-inline'>
+        <p>Poiscdf cumulative probability</p>
+
+      </div>
+</section>
+</div><div class='py1'><section class='py2 clearfix'>
+  <h2 id='tInverse' class='mt0'>
+    tInverse<span class='gray'>(pLevel, degreesOfFreedom)</span>
+  </h2>
+  <p>Student&apos;t cumulative distribution fuction (<a href="https://en.wikipedia.org/wiki/Student&apos;s_t-distribution)(http://www.math.ucla.edu/~tom/distributions/tDist.html">https://en.wikipedia.org/wiki/Student%27s_t-distribution)(http://www.math.ucla.edu/~tom/distributions/tDist.html</a>)</p>
+
+    <h4>Parameters</h4>
+    <ul class='suppress-p-margin'>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>pLevel</strong>
+          :
+          <div class='force-inline'>
+            <p>probability level</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>degreesOfFreedom</strong>
+          :
+          <div class='force-inline'>
+            
+          </div>
+        </li>
+    </ul>
+      <h4>Returns</h4>
+      <code><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code></code>
+      :
+      <div class='force-inline'>
+        <p>t value</p>
+
+      </div>
+</section>
+</div><div class='py1'><section class='py2 clearfix'>
+  <h2 id='tStudent' class='mt0'>
+    tStudent<span class='gray'>(tStatistic, degreesOfFreedom)</span>
+  </h2>
+  <p>Student&apos;t cumulative distribution fuction (<a href="https://en.wikipedia.org/wiki/Student&apos;s_t-distribution)(http://www.math.ucla.edu/~tom/distributions/tDist.html">https://en.wikipedia.org/wiki/Student%27s_t-distribution)(http://www.math.ucla.edu/~tom/distributions/tDist.html</a>)</p>
+
+    <h4>Parameters</h4>
+    <ul class='suppress-p-margin'>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>tStatistic</strong>
+          :
+          <div class='force-inline'>
+            <p>t value</p>
+
+          </div>
+        </li>
+        <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code> <strong>degreesOfFreedom</strong>
+          :
+          <div class='force-inline'>
+            
+          </div>
+        </li>
+    </ul>
+      <h4>Returns</h4>
+      <code><code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></code></code>
+      :
+      <div class='force-inline'>
+        <p>probability of obtaining a lower tStatistic</p>
+
+      </div>
+</section>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src='assets/anchor.js'></script>
+  <script src='assets/site.js'></script>
+</body>
+</html>

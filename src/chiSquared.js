@@ -4,10 +4,11 @@ var gammaSER = require('./gammaSER');
 var gammaCF = require('./gammaCF');
 
 /**
- * chi squared  distribution (https://en.wikipedia.org/wiki/Chi-squared_distribution)(http://www.math.ucla.edu/~tom/distributions/chisq.html)
+ * chi squared  distribution (https://en.wikipedia.org/wiki/Chi-squared_distribution)
+ * (http://www.math.ucla.edu/~tom/distributions/chisq.html)
  * @param {number} chiStatistic parameter
  * @param {number} degreesOfFreedom parameter
- * @returns {number} probability value
+ * @returns {number} probability value for obtaining a lower chiStatistic
  */
 
 function chiSquared (chiStatistic, degreesOfFreedom) {       

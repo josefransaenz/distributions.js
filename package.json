@@ -4,8 +4,9 @@
   "description": "A javascript library of probability distributions",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/distributions.test.js",
-    "build": "babel src --out-dir lib"
+    "test": "mocha",
+    "build": "babel src --out-dir lib",
+    "bundle": "browserify index.js > dist/distributions.js"
   },
   "repository": {
     "type": "git",

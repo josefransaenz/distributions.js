@@ -8,7 +8,7 @@ var Betinc = require('./Betinc');
  * Student't cumulative distribution fuction (https://en.wikipedia.org/wiki/Student%27s_t-distribution)(http://www.math.ucla.edu/~tom/distributions/tDist.html)
  * @param {number} tStatistic t value
  * @param {number} degreesOfFreedom 
- * @returns {number} B (X; A, B)
+ * @returns {number} probability of obtaining a lower tStatistic
  */
 function tStudent (tStatistic, degreesOfFreedom) {
     let X = tStatistic;

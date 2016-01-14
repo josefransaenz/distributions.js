@@ -1,6 +1,7 @@
 'use strict';
 /**
  * This function calculate the logarithm of the gamma function (Boros and Moll 2004, p. 204) (http://www.math.ucla.edu/~tom/distributions/tDist.html).
+ * @private 
  * @param {number} z parameter
  * @returns {number} ln [Gamma (z)].
  */
