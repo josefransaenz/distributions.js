@@ -16,7 +16,7 @@ NPM: npm install distributions.js --save
 
 # API Reference
 
-
+See my [API Documentation](/API_DOCUMENTATION.md). 
 
 # Tests
 
