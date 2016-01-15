@@ -33,10 +33,6 @@ chi squared  distribution (<https://en.wikipedia.org/wiki/Chi-squared_distributi
 
 Returns **number** probability value for obtaining a lower chiStatistic
 
-# distributions.js
-
-A library for common-use probability distribution functions
-
 # fInverse
 
 F distribution inverse function (<https://en.wikipedia.org/wiki/Chi-squared_distribution>)
@@ -82,14 +78,6 @@ Student't cumulative distribution fuction (<https://en.wikipedia.org/wiki/Studen
 -   `degreesOfFreedom` **number** 
 
 Returns **number** t value
-
-# tInverse
-
-Create a blend mixer.
-
-# tStudent
-
-Create a color mixer.
 
 # tStudent
 

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "build": "babel src --out-dir lib",
-    "bundle": "browserify index.js > dist/distributions.js"
+    "bundle": "browserify index.js > dist/distributions.js",
+    "apiDocs": "documentation -f md -o API_DOCUMENTATION.md"
   },
   "repository": {
     "type": "git",
